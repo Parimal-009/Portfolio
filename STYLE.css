@@ -1,0 +1,215 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Header Carousel Images */
+.carousel-item img {
+  width: 100%;
+  height: 93vh;
+}
+
+/* Horizontal Card Images */
+.horizontal-card-img img {
+  width: 100%;
+  height: 35vh;
+}
+
+/* About Us Image */
+.about_img {
+  min-width: 100%;
+  max-height: 280px;
+}
+
+/* Service Cards Images */
+.my-service img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Checkout Git Profile Section */
+.chekcout-my-profile {
+  background: #a6dcef; /* Default Background Color */
+  transition: all 0.5s ease-in; /* Smooth transition effect */
+}
+
+/* Footer Styles */
+footer p {
+  margin-bottom: 0;
+}
+
+/* Apply Animation to the Element */
+.chekcout-my-profile:hover {
+  animation: changeBackground 2s ease infinite; /* Change duration and timing as needed */
+}
+
+/* For Responsive Design */
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+.module {
+  padding: 50px;
+  width: 100%;
+  height: 1250px;
+  background-color: bisque;
+}
+
+.webd {
+  height: 200px;
+  width: 210px;
+}
+
+.row1{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row2{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row3{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+
+.module1{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  background-color: antiquewhite;
+  box-shadow: 10px 10px lightblue;
+}
+
+.module2{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  background-color: antiquewhite;
+  box-shadow: 10px 10px lightblue;
+}
+
+.module3{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  background-color: antiquewhite;
+  box-shadow: 10px 10px lightblue;
+}
+
+.module4{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  background-color: antiquewhite;
+  box-shadow: 10px 10px lightblue;
+}
+
+.module5{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  background-color: antiquewhite;
+  box-shadow: 10px 10px lightblue;
+}
+
+.module6{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  background-color: antiquewhite;
+  box-shadow: 10px 10px lightblue;
+}
+
+.module7{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  background-color: antiquewhite;
+  box-shadow: 10px 10px lightblue;
+}
+
+.module8{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  background-color: antiquewhite;
+  box-shadow: 10px 10px lightblue;
+}
+
+.module9{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  background-color: antiquewhite;
+  box-shadow: 10px 10px lightblue;
+}
+.display-4{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.main_heading {
+  background-color: bisque;
+}
+
+.img-fluid {
+   height: 200px;
+   width: 200px;
+   left: 200px;
+   
+}
+
+
+.container1{
+ 
+background-color: bisque;
+  
+}
+.text-center{
+
+  
+  margin-top: 20px;
+  padding-top: 20px;
+}
+#a111{
+  height: 2;
+}
+.sta{
+  height: 20px;
+  color: antiquewhite;
+}
+.img-fluid{
+  height: 250px;
+  width: 250px;
+  padding-left: 30px;
+  left: 200px;
+}
+
+.fablab{
+        height: 300px;
+        width: 300px;
+       
+}
+
+.selfimg{
+  margin-left: 110px;
+  margin-bottom: 60px;
+}
