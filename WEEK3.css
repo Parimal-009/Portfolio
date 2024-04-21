@@ -1,0 +1,127 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #17a2b8;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ccc;
+}
+
+/* Main content styles */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.img1, .vid2 {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 24px;
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Timetable styles */
+.timetable {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 10px;
+}
+
+.time-labels {
+  grid-column: 1 / span 1;
+}
+
+.time-slots {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 10px;
+}
+
+.time-slot {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* World Time Zones styles */
+.world-map {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.time-zone {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #17a2b8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #138496;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .container {
+      padding: 10px;
+  }
+
+  .navbar-nav .nav-link {
+      margin-right: 5px;
+  }
+
+  .img1 {
+    max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+  }
+
+  .button {
+      padding: 8px 16px;
+      font-size: 14px;
+  }
+
+
+}
