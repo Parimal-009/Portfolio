@@ -180,7 +180,7 @@ footer p {
 
 .container1{
  
-background-color: bisque;
+background-color:bisque
   
 }
 .text-center{
@@ -206,11 +206,32 @@ background-color: bisque;
 .fablab{
         height: 300px;
         width: 300px;
+    
        
 }
 
 .selfimg{
   margin-left: 110px;
   margin-bottom: 60px;
+  
 }
+.wasd{ 
+position: absolute;
+padding-top: 100px;
+padding-left: 150px;
+}
+
+.wasd1{
+  font-size: 65px;
+  color: aliceblue;
+  font-family: fantasy;
+}
+.wasd2{
+  font-size: 65px;
+  color: aliceblue;
+  font-family: fantasy;
+
+
+}
+
 
